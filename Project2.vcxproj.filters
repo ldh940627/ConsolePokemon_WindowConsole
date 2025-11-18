@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Item">
+      <UniqueIdentifier>{8d97edad-3fe8-4d98-913c-8b587ef62b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Poketmon">
+      <UniqueIdentifier>{5e98e1e1-5ade-44bc-b741-8502f81147bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameMap">
+      <UniqueIdentifier>{23f7b961-ccc8-43e5-bfdd-cf06fc26f565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Skill">
+      <UniqueIdentifier>{f30186f7-1d31-45fc-a94a-6f328491e024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{4df88775-6e7b-40a5-afed-e880327fe2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Trainer">
+      <UniqueIdentifier>{00731c50-d253-45a6-b2f1-2115f7503ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Store">
+      <UniqueIdentifier>{7b8a059c-5375-4f54-a2ca-74deb4f0d530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Manager">
+      <UniqueIdentifier>{2a036e3b-9df1-4ea4-9f06-dad341cba79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Item">
+      <UniqueIdentifier>{73252c27-63e3-4ff3-b946-25875f474519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Skill">
+      <UniqueIdentifier>{8b4ddeae-8cfc-4993-889e-ba37a889e678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Poketmon">
+      <UniqueIdentifier>{caa2bbac-d9d7-4e4a-8ae8-0580e5b4eb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\GameMap">
+      <UniqueIdentifier>{85cf4c86-7633-4d12-a18f-78d26430da04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Trainer">
+      <UniqueIdentifier>{5e899a8c-de91-4303-9caa-0b4abc707d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Store">
+      <UniqueIdentifier>{d5e9b4de-477c-42dc-8ad2-4dd78354c61c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BattleManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemFactory.h">
+      <Filter>헤더 파일\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemInventory.h">
+      <Filter>헤더 파일\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Monsterball.h">
+      <Filter>헤더 파일\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>헤더 파일\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillInventory.h">
+      <Filter>헤더 파일\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillLibrary.h">
+      <Filter>헤더 파일\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Poketmon.h">
+      <Filter>헤더 파일\Poketmon</Filter>
+    </ClInclude>
+    <ClInclude Include="PoketmonFactory.h">
+      <Filter>헤더 파일\Poketmon</Filter>
+    </ClInclude>
+    <ClInclude Include="PoketmonInventory.h">
+      <Filter>헤더 파일\Poketmon</Filter>
+    </ClInclude>
+    <ClInclude Include="Wildpoketmongenerator.h">
+      <Filter>헤더 파일\Poketmon</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>헤더 파일\GameMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\Trainer</Filter>
+    </ClInclude>
+    <ClInclude Include="Trainer.h">
+      <Filter>헤더 파일\Trainer</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>헤더 파일\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="HealingItem.h">
+      <Filter>헤더 파일\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleUtils.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeEffectiveness.h">
+      <Filter>헤더 파일\Skill</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Monsterball.cpp">
+      <Filter>소스 파일\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Poketmon.cpp">
+      <Filter>소스 파일\Poketmon</Filter>
+    </ClCompile>
+    <ClCompile Include="PoketmonFactory.cpp">
+      <Filter>소스 파일\Poketmon</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>소스 파일\GameMap</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemFactory.cpp">
+      <Filter>소스 파일\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemInventory.cpp">
+      <Filter>소스 파일\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>소스 파일\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillInventory.cpp">
+      <Filter>소스 파일\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillLibrary.cpp">
+      <Filter>소스 파일\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Wildpoketmongenerator.cpp">
+      <Filter>소스 파일\Poketmon</Filter>
+    </ClCompile>
+    <ClCompile Include="PoketmonInventory.cpp">
+      <Filter>소스 파일\Poketmon</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Trainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Trainer.cpp">
+      <Filter>소스 파일\Trainer</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>소스 파일\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="HelingItem.cpp">
+      <Filter>소스 파일\Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
